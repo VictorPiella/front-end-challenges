@@ -1,0 +1,137 @@
+body{
+    background-color: #fafaf3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-actions{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 20px;
+}
+.top-logo{
+    float: left;
+    background-color: #ccc;
+    padding: 8px 100px; 
+    border-radius: 5px;
+    margin: 20px 0 0 20px;
+}
+
+.top-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-right: 40px;
+}
+.top-menu li{
+    margin: 0 20px;
+    padding: 10px;
+}
+.top-menu .active{
+    background-color: #ebc106;
+    color: white;
+    border-radius: 5px;
+}
+.main{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow:0px 0px 8px #888888;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+h1, h2{
+    padding: 10px 20px;
+}
+h2, h3{
+    margin-bottom: 3px;
+}
+.featured-book{
+    background-color: #fafaf3;
+    overflow: auto;
+}
+.featured-book .title{
+    padding: 0;
+}
+.recommended{
+    background-color: #ebc106;
+    color: white;
+    border-radius: 0 0 0 5px;
+    padding: 5px 10px;
+    float: right;
+}
+
+.featured-book img{
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow:0px 0px 2px #888888;
+    width: 30%;
+    float: left;
+}
+.book-info{
+    padding-right: 20px;
+}
+
+
+.books-list{
+    display: flex;
+}
+
+.book{
+    background-color: #fafaf3;
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 0;
+}
+.position{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ebc106;
+    color: #ebc106;
+    text-align: center;
+    line-height: 30px;
+}
+.book img{
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow:0px 0px 2px #888888;
+    clear: both;
+}
+.book-info{
+    text-align: left;
+}
+
+
+footer{
+    background-color: #292929;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+/* footer .container{
+    display: flex;
+} */
+footer nav{
+    width: 100%;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    margin: 10px 30px;
+}
